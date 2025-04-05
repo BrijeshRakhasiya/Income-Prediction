@@ -5,10 +5,37 @@ Income Prediction is a machine learning project that predicts whether an individ
 ---
 
 ## Project Structure
-Income Prediction/ │ ├── app.py # Flask application for model deployment ├── requirements.txt # Python dependencies ├── setup.py # Project setup configuration ├── .gitignore # Files and directories to ignore in version control ├── README.md # Project documentation │ ├── artifacts/ # Directory for storing model and preprocessor artifacts │ ├── model.pkl # Trained machine learning model │ ├── preprocessor.pkl # Preprocessing pipeline │ ├── raw.csv # Raw dataset │ ├── train.csv # Processed training dataset │ └── test.csv # Processed testing dataset │ ├── logs/ # Directory for application logs │ ├── <timestamp>.log # Log files for debugging and monitoring │ ├── notebooks/ # Jupyter notebooks for EDA and model training │ ├── EDA.ipynb # Exploratory Data Analysis notebook │ └── Model Training.ipynb # Model training and evaluation notebook │ ├── src/ # Source code for the project │ ├── init.py # Package initialization │ ├── exception.py # Custom exception handling │ ├── logger.py # Logging utility │ ├── utils.py # Utility functions │ ├── components/ # Components for data processing and modeling │ └── pipelines/ # Pipelines for end-to-end workflows │ ├── templates/ # HTML templates for the Flask web app │ └── index.html # Frontend form for user input │ └── .gitignore # Specifies files and directories to ignore in Git
 
----
+# Income Prediction
 
+```
+Income Prediction/
+├── app.py                         # Flask application for model deployment
+├── requirements.txt               # Python dependencies
+├── setup.py                       # Project setup configuration
+├── .gitignore                     # Files and directories to ignore in version control
+├── README.md                      # Project documentation
+├── artifacts/                     # Directory for storing model and preprocessor artifacts
+│   ├── model.pkl                  # Trained machine learning model
+│   ├── preprocessor.pkl           # Preprocessing pipeline
+│   ├── raw.csv                    # Raw dataset
+│   ├── train.csv                  # Processed training dataset
+│   └── test.csv                   # Processed testing dataset
+├── logs/                          # Directory for application logs
+│   └── *.log                      # Log files for debugging and monitoring
+├── notebooks/                     # Jupyter notebooks for EDA and model training
+│   ├── EDA.ipynb                  # Exploratory Data Analysis notebook
+│   └── Model Training.ipynb       # Model training and evaluation notebook
+├── src/                           # Source code for the project
+│   ├── __init__.py                # Package initialization
+│   ├── exception.py               # Custom exception handling
+│   ├── logger.py                  # Logging utility
+│   ├── utils.py                   # Utility functions
+│   ├── components/                # Components for data processing and modeling
+│   └── pipelines/                 # Pipelines for end-to-end workflows
+└── templates/                     # HTML templates for the Flask web app
+    └── index.html                 # Frontend form for user input
+```
 ## Features
 
 - **Data Preprocessing**: Handles missing values, encodes categorical variables, and scales numerical features.
@@ -22,7 +49,7 @@ Income Prediction/ │ ├── app.py # Flask application for model deployment
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/BrijeshRakhasiya/Income-Prediction.git>
    cd Income-Prediction
 2. Install dependencies:
     pip install -r requirements.txt
